@@ -14,7 +14,7 @@ end
 
 
 
-def now_serving(katz_deli)
+def nowServing(katz_deli)
   puts "Currently serving #{katz_deli.shift}"
 end
 
