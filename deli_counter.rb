@@ -4,8 +4,9 @@ def line(full_line)
   if (full_line.length == 0)
     "The line is currently empty."
   else
+    line_array = []
     full_line.each.with_index do |name, index|
-
+      line_array.push("#{index}. #{name}")
     end
 
 end
