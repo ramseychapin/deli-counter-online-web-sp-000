@@ -10,7 +10,7 @@ end
 
 
 def now_serving(full_line)
-
+  puts "Currently serving #{full_line.shift}"
 end
 
 def take_a_number(full_line, name)
