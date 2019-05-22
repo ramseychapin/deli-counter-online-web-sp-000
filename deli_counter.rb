@@ -4,7 +4,10 @@ def line(full_line)
   if (full_line.length == 0)
     "The line is currently empty."
   else
-    
+    full_line.each.with_index do |name, index|
+
+    end
+
 end
 
 
