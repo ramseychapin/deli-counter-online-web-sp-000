@@ -1,8 +1,8 @@
 # Write your code here.
 
-katzDeliLine = [];
+kat
 
-def currentLine(katz_deli)
+def line(katz_deli)
   if (katz_deli.length == 0)
     "The line is currently empty."
   else
