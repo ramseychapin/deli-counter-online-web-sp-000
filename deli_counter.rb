@@ -1,6 +1,6 @@
 # Write your code here.
 
-def line(full_line)
+def line(katz_deli)
   if (full_line.length == 0)
     "The line is currently empty."
   else
