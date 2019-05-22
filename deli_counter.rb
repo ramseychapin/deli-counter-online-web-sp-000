@@ -14,11 +14,11 @@ end
 
 
 
-def now_serving(full_line)
+def now_serving(katz_deli)
   puts "Currently serving #{full_line.shift}"
 end
 
-def take_a_number(full_line, name)
+def take_a_number(katz_deli, name)
   full_line.push(name)
   puts "Welcome #{name}. You are number #{full_line.length -1} in line."
 end
