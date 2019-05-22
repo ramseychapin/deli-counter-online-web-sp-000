@@ -1,11 +1,11 @@
 # Write your code here.
 
 def line(katz_deli)
-  if (full_line.length == 0)
+  if (katz_deli.length == 0)
     "The line is currently empty."
   else
     line_array = []
-    full_line.each.with_index do |name, index|
+    katz_deli.each.with_index do |name, index|
       line_array.push("#{index}. #{name}")
     end
   end
